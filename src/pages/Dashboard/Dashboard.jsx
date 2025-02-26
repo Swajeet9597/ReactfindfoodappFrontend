@@ -42,13 +42,15 @@ const Dashboard = () => {
 
       const data = await response.json()
 
-      console.log(data);
+      console.log("auth",data);
 
       if(!data.success){
 
         toast.error("User must login...")
         navigate('/login')
       }
+
+      if
 
       setLoader(false) 
 
