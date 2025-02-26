@@ -23,13 +23,11 @@ const RegisterPg = () => {
 
   return (
     <div className="Regpage">
-       <div className="loginPage">
-      {screeSize.width < 850 ? <div style={{color:"white",fontSize:"2rem", height:"100vh", display:"flex", justifyContent:"center", alignItems:"center", flexWrap:"nowrap",textAlign:"center"}}> This website is designed to work best on PCs and laptops for an enhanced experience. </div> :
-           <>
-              <Register setLoad={setLoad}/>
-              {load ? <LoadingPage/> : <></>}
-           </>  
-      }
+        {screeSize.width < 850 ? <div style={{color:"white",fontSize:"2rem", height:"100vh", display:"flex", justifyContent:"center", alignItems:"center", flexWrap:"nowrap",textAlign:"center"}}> This website is designed to work best on PCs and laptops for an enhanced experience. </div> :
+        <>
+        <Register setLoad={setLoad}/>
+        {load ? <LoadingPage/> : <></>}
+        </>}
     </div>
   );
 }
