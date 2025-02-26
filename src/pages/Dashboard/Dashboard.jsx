@@ -44,9 +44,8 @@ const Dashboard = () => {
 
       console.log("auth data",data);
 
-      if(!data.success){
-
-        toast.error("User must login...")
+      if(!data.success || data.data != "messOwner"){
+        // toast.error("User must login...")
         navigate('/login')
       }
 
