@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './MessOwnerSideBar.css'
-import logo from '../../assets/clogo.png'
+import logo from '../../assets/clogo.jpg'
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import InfoIcon from '@mui/icons-material/Info';
