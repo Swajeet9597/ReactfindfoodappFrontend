@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./RegisterPg.css"
 import Register from '../../components/Register/Register';
 const RegisterPg = () => {
