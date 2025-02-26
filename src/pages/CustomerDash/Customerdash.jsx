@@ -36,8 +36,8 @@ const Customerdash = () => {
 
               
         
-              if(!data.success){
-                toast.error("User must login...")
+              if(!data.success || data.data.role != "customer"){
+                // toast.error("User must login...")
                 navigate('/login')  
               }
 
@@ -48,7 +48,7 @@ const Customerdash = () => {
 
               const data2 = await res2.json()
 
-              console.log(data2);
+              // console.log(data2);
 
             setMessDetaislArray(data2.messDetails)
             setMenuDetaislArray(data2.menuDetails)
