@@ -1,7 +1,7 @@
 *{
     font-family: "Inter", serif;
 }
-.LoginBox{
+.RegBoxx{
     background-color: aliceblue;
     /* margin:; */
     width: 25vw;
@@ -29,7 +29,7 @@
     justify-content: center;
     /* align-items: center; */
 }
-.LoginBox h1{
+.RegBoxx h1{
     margin-bottom: 2rem;
 }
 
@@ -107,7 +107,7 @@
 
 @media (max-width: 1444px) {
 
-    .LoginBox{
+    .RegBoxx{
         width: 30vw;
     }
 
@@ -117,7 +117,7 @@
 
 @media (max-width: 1250px) {
 
-    .LoginBox{
+    .RegBoxx{
         width: 35vw;
     }
 
@@ -126,7 +126,7 @@
 
 @media (max-width: 1050px) {
 
-    .LoginBox{
+    .RegBoxx{
         width: 40vw;
     }
 
@@ -135,7 +135,7 @@
 
 @media (max-width: 950px) {
 
-    .LoginBox{
+    .RegBoxx{
         width: 50vw;
     }
 
@@ -144,7 +144,7 @@
 
 @media (max-width: 768px) {
 
-    .LoginBox{
+    .RegBoxx{
         width: 70vw;
     }
 

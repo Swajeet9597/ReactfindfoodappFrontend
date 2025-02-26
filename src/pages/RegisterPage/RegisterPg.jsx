@@ -5,7 +5,7 @@ import LoadingPage from '../../components/LoadPage/Loading';
 const RegisterPg = () => {
   const [load,setLoad] = useState(false)
   return (
-    <div className="loginPage">
+    <div className="Regpage">
         <Register setLoad={setLoad}/>
         {load ? <LoadingPage/> : <></>}
     </div>

@@ -84,7 +84,7 @@ const Register = ({setLoad}) => {
 
 
   return (
-    <div className='LoginBox' >
+    <div className='RegBoxx' >
     <h1>Register</h1>
     <form onSubmit={handleSubmit} className='loginform' >
         <div className="input">
