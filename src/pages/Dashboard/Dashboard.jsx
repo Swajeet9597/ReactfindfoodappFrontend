@@ -42,7 +42,7 @@ const Dashboard = () => {
 
       const data = await response.json()
 
-      console.log("auth",data);
+      console.log("auth data",data);
 
       if(!data.success){
 
