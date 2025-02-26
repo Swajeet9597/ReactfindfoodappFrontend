@@ -1,0 +1,48 @@
+.sidebarCompo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+}
+.sideLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 1rem;
+    width: 100%;
+    gap: 1.5rem;
+    height: 20%;
+}
+
+.lineHori{
+    height: 1px;
+    background-color: black;
+    width: 80%;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 70%;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* gap: 0.5rem; */
+}
+.options div{
+    width: 90%;
+    padding: 8px 0 8px 8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+.empty{
+    height: 10%;
+}

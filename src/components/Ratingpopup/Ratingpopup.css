@@ -1,0 +1,45 @@
+.ratingPop{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.ratingpopupBox{
+    height: 50vh;
+    width: 70vw;
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgb(200, 224, 245), aliceblue );
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+
+}
+
+.rateStarbbox{
+    width: 45%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 1rem;
+}
+
+.imgandMessname{
+    display: flex;
+    /* align-items: center; */
+    width: 100%;
+
+}
+
+.imgandMessname img{
+    width: 40%;
+    cursor: pointer;
+}

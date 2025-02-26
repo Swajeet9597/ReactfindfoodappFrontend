@@ -1,0 +1,52 @@
+.dashContent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.dashHead{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 3rem 1rem 1rem;
+    align-items: center;
+
+}
+
+.ratingviews{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+.ratingC{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    /* height: ; */
+    padding: 1rem 1rem;
+    border-radius: 15px;
+
+}
+
+.foodServ{
+    width: 35%;
+    border: 1px solid black;
+    /* height: ; */
+    padding: 1rem 0;
+    border-radius: 15px;
+}
+
+.totalView{
+    width: 20%;
+    border: 1px solid black;
+    /* height: ; */
+    padding: 1rem 0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}

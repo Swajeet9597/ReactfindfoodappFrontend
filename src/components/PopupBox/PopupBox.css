@@ -1,0 +1,19 @@
+.poopupDiv{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+.delBtn{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}

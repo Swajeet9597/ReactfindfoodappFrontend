@@ -1,0 +1,23 @@
+.notFound{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(23, 18, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.notFound span{
+    height: 50vh;
+    width: 40vw;
+    background-color: aliceblue;
+      
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}

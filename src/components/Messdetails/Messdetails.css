@@ -1,0 +1,40 @@
+.messdetailsform{
+    width: 100%;
+    /* position: relative; */
+
+}
+
+.addForm{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-top: 1.8rem;
+    width: 100%;
+}
+
+.add1{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 0.7rem;
+}
+
+.btnNext{
+    width: 94%;
+    display: flex;
+    justify-content: flex-end;
+    /* margin: 2rem 0rem 2rem 0rem; */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.loader{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

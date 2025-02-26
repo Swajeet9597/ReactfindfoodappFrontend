@@ -1,0 +1,84 @@
+.boxRate{
+    border: 1px solid black;
+    border-radius: 5px;
+    /* padding: 10px; */
+    width: 4.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+   
+}
+
+.boxRateT{
+    border: 1px solid black;
+    border-radius: 5px;
+    /* padding: 10px; */
+    width: 9rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+   
+}
+
+.selectedBgRate{
+    border: 1px solid black;
+    border-radius: 5px;
+    /* padding: 10px; */
+    width: 4.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    background-color: rgb(120, 189, 235);
+    color: rgb(20, 20, 20);
+    border: none;
+    cursor: pointer;
+}
+
+.selectedBgType{
+    border-radius: 5px;
+    width: 9rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    background-color: rgb(120, 189, 235);
+    color: rgb(20, 20, 20);
+    border: none;
+    cursor: pointer;
+}
+
+.resetandapply{
+    display: flex;
+    border:1px solid black ;
+    border-left: none;
+    border-right:none;
+    border-bottom:none ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    padding-top: 2rem;
+
+
+}
+
+.resetandapply span{
+    border: 1px solid black;
+    width: 9rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    box-shadow: 3px 3px rgb(219, 219, 219);
+    cursor: pointer;
+}
