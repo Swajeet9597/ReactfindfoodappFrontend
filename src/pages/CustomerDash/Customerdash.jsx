@@ -3,7 +3,7 @@ import { toast } from 'react-toastify';
 import { BASE_URL } from '../../helper';
 import { useNavigate } from 'react-router-dom';
 import './Customerdash.css'
-import logo from '../../assets/clogo.png'
+import logo from '../../assets/clogo.jpg'
 import TextField from '@mui/material/TextField';
 import FilterAltIcon from '@mui/icons-material/FilterAlt';
 import Messcard from '../../components/MessCard/Messcard';

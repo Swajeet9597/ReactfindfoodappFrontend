@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import VerticalLinearStepper from '../../components/Stepper/stepper';
 import './Messform.css'
-import logo from '../../assets/clogo.png'
+import logo from '../../assets/clogo.jpg'
 import { DataContext } from '../../contextApi/context';
 import Messdetails from '../../components/Messdetails/Messdetails';
 import SimpleBackdrop from '../../components/Loader/Loader';
