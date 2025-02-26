@@ -6,7 +6,7 @@ import { BASE_URL } from '../../helper';
 import './Register.css'
 import ReCAPTCHA from "react-google-recaptcha";
 
-const Register = () => {
+const Register = ({setLoad}) => {
 
     const navigate = useNavigate()
 
@@ -22,13 +22,15 @@ const Register = () => {
     
      const handleSubmit = async(e)=>{
       e.preventDefault();
-
+      setLoad(true)
       console.log(userInfo);
 
       if(userInfo.password != userInfo.cpassword){
+        setLoad(false)
        return toast.error("Password is not matched")
       }
       if(userInfo.password == "" || userInfo.email == "" || userInfo.role==""){
+        setLoad(false)
         return toast.error("Please fill all fields")
       }
     
@@ -44,8 +46,10 @@ const Register = () => {
 
       if(result.success){
         navigate("/login")
+        setLoad(false)
        return toast.success(result.msg)
       }else{
+        setLoad(false)
         return toast.error(result.msg)
       }
     }
