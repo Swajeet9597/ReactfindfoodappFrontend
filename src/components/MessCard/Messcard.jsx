@@ -109,7 +109,7 @@ const Messcard = ({ search }) => {
 
   },[messDetailsArray])
 
-  console.log("7977979797979",val);
+  console.log("7977979797979",val,newMessArray);
 
   return (
     <>
