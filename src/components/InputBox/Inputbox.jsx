@@ -72,8 +72,7 @@ const Inputbox = ({lable,type,width,name,section}) => {
     type={type}
     name={name}
     onChange={!section ? handleChange : (e)=>handleNestedChange(e,section)}
-    required
-    
+    required  
   />
   );
 }

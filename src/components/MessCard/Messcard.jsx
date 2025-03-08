@@ -109,6 +109,8 @@ const Messcard = ({ search }) => {
 
   },[messDetailsArray])
 
+  console.log("889898989898",val);
+
   return (
     <>
       {
