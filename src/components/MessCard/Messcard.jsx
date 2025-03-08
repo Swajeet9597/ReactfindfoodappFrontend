@@ -109,13 +109,13 @@ const Messcard = ({ search }) => {
 
   },[messDetailsArray])
 
-  console.log("889898989898",val);
+  console.log("7977979797979",val);
 
   return (
     <>
       {
       newMessArray
-        .filter((item) => (val === "any" ? item : item.rating >= val+0.0))
+        .filter((item) => (val === "any" ? item : item.rating >= val))
         .filter((item) => (loc?.toLowerCase() === "location" ? item : item.address.city.toLowerCase().includes(loc.toLowerCase())))
         .filter((item) => (valType.toLowerCase() === "any" ? item : item.foodType.toLowerCase() == valType.toLowerCase()))
         .filter((item) => (search.toLowerCase() === "" ? item : item.messName.toLowerCase().includes(search)))
