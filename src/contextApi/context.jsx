@@ -68,7 +68,7 @@ export const DataProvider = ({children})=>{
 
     const uploadImage = async(image)=>{
         try {
-            
+            console.log("Imageee",image);
             const formData = new FormData()
             formData.append("file",image)
             formData.append("upload_preset","mess-app")
@@ -143,3 +143,9 @@ const[loc,setLoc] = useState("location")
         {children}
     </DataContext.Provider>
 }
+
+// return <DataContext.Provider values = {{}}>
+
+                // {children}
+        
+        // </DataContext.Provider>
